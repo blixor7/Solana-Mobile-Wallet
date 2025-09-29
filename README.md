@@ -1,61 +1,47 @@
-# The project end life
+# Solana Mobile Wallet
 
-# road map
-Q1:
-Improve the basic functions of Solana payment and related user experience
+A standard mobile wallet implementation for Solana with full support for Solana Mobile Stack (SMS). This project provides a comprehensive mobile cryptocurrency wallet solution built specifically for the Solana blockchain ecosystem.
 
-Q2:
-Integrate coin swap exchange and aggregate transactions
+## Project Overview
 
-Q3:
-Integrating DAPP and related ecosystem applications,add support for solana mobile stack
+**Project Name**: Solana Mobile Wallet  
+**Token Symbol**: ULA  
+**Total Supply**: 200,000,000  
+**Contract Address**: EwHqbMUMX33JjWAhxSg9vsX3miWqncsgpnAbqn9nhJwZ  
 
-Q4:
-Improve the open source and related materials,  let the community drive the project development
+## Development Roadmap
 
-# SolanaAppWallet
-Project Name : Solana standard mobile wallet fully support solana mobile stack(SMS)
+### Q1: Core Wallet Foundation
+- Implement basic Solana payment functionality
+- Enhance user experience and interface design
+- Establish secure key management system
 
-Symbol ：ULA 
+### Q2: Trading Integration
+- Integrate coin swap exchange capabilities
+- Implement aggregate transaction processing
+- Add advanced trading features
 
-Total supply ：200 million 
+### Q3: Ecosystem Expansion
+- Integrate DApp browser and ecosystem applications
+- Add full support for Solana Mobile Stack
+- Expand cross-chain functionality
 
-Chinese Name ：乌拉 
+### Q4: Community Development
+- Complete open-source documentation
+- Enable community-driven development
+- Establish developer resources and guides
 
-Contract ：EwHqbMUMX33JjWAhxSg9vsX3miWqncsgpnAbqn9nhJwZ 
+## Technical Specifications
 
-Meaning：Token name comes from Russia Putin's parade slogan: rush!! move forward 
+### Wallet Standards
+- **Hierarchical Deterministic Wallet**: Standard HD path `m/44'/501'/0'/0'`
+- **Key Generation**: ed25519 curve using official Solana standards
+- **Key Recovery**: Compatible with Solana CLI recovery tools
 
-Website：http://www.kikenn.com 
-
-MarketId: 3fxSHmDZx9zFdRucnAtTLAdFtqx2cvo4VaTix2iTgF7k
-
-WhitePaper: http://www.kikenn.com/app/whitepaper.pdf
-
-TelegramGroup: https://t.me/joinchat/AJb4NRTFI0dhYzBh
-
-DiscordGroup: https://discord.com/invite/ck5v6pYC
-
-DexlabTrade: https://trade.dexlab.space/#/market/3fxSHmDZx9zFdRucnAtTLAdFtqx2cvo4VaTix2iTgF7k
-
-lastest ppt:https://docs.google.com/presentation/d/1ENAoS6Gc0DXdodA_40_xqjy3sctXOfUsZPC3K-eGa5o/edit?usp=sharing
-
-Goal：One-stop DeFi portal links global digital assets, integrates cross chain, transaction and lending, and accelerates Web3.0 
-
-Solana APP is another version of sollet wallet for mobile 
-
-Solana Pay is the entry point into the system. It lives directly between web2 & web3,    
-receiving web2 payloads & converting them into web3 transactions. The power of this 
-really can’t be overstated. The contours of this design space are unexplored and sure to 
-hold amazing things.
-
-Cryptocurrencies are bringing forward a decentralized world, and Solana Pay is a perfect 
-example of what the possibilities are.
-
-Solana standard Hierachical Deterministic Wallet, standard HD path m/44'/501'/0'/0' 
-
-The public key generation curve is ed25519 Use the official standard generation method. 
-
-solana-keygen recover prompt://?full-path=m/44'/501'/0'/0' --force 
-
-
+### Key Features
+- Solana Pay integration for seamless transactions
+- Mobile-optimized user interface
+- Secure key storage and management
+- DApp browser integration
+- Cross-chain asset support
+- One-stop DeFi portal
